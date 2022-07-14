@@ -1,0 +1,13 @@
+.stats__container{
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    justify-content: center;
+}
+
+.stats{
+    color: var(--white-color);
+    border-bottom: 2px solid var(--white-color);
+    text-align: center;
+}
